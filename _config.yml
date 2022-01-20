@@ -65,7 +65,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
 			- layout: left
-        title: [University of Delaware](https://www.udel.edu)
+        title: University of Delaware
         caption: 2013 - 2017
         sub_title: BSc Computer Science
         quote: >
