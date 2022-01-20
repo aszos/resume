@@ -15,7 +15,7 @@ website: https://aszos.github.io/resume/
 darkmode: true
 
 # Social links
-twitter_username: facespics
+# twitter_username: facespics
 github_username:  aszos
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -44,7 +44,7 @@ github_username:  aszos
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   Hi, my name's Alex and I'm a Cloud Engineer. 
 
   I am most skilled in: <mark>AWS</mark>.
@@ -57,19 +57,43 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: The Vanguard Group
         sub_title: Cloud Engineer, Specialist
         caption: January 2019 ~ Current
         link: https://investor.vanguard.com/home
         description: 
         
-      - layout: right
+      - layout: left
         title: The Vanguard Group
         sub_title: Java Developer
         caption: August 2017 ~ January 2019
         link: https://investor.vanguard.com/home
-        description: 
+        description: |
+          Developed, supported, and deployed patches for the Vanguard public website. 
+          Led project to re-architect and update the public site application to use Spring 4, Java 8, Gatekeeper. 
+          Built a process to eliminate bottlenecks for local public site development, decreased application startup time by 80% and decreased load times by 35%.
+          Researched and led project to migrate REST service to cloud-based architecture.
+          
+      - layout: left
+        title: Endevor LLC.
+        sub_title: Full Stack Software Development Intern
+        caption: June 2016 ~ August 2016
+        link: https://www.endevorllc.com/
+        description: |
+          Developed, designed, tested, and deployed web-based enterprise human resources solutions.
+          Programmed in C# ASP.NET, HTML/CSS/Javascript, and SQL.
+          Collaborated with team of junior and senior developers in an agile work environment.
+          
+      - layout: left
+        title: JPMorgan Chase & Co.
+        sub_title: Summer Technology Analyst
+        caption: June 2015 - August 2015
+        link: https://www.jpmorgan.com/
+        description: |
+          Deployed a database migration component to migrate 15 million securities records daily, performed optimizations to decrease runtime by 300%.
+          Developed using Java, MySQL, Bash, SVN, and Fitnesse.
+          Implemented a robust testing framework and produced technical specification documentation.
           
   - title: Education
     layout: list
@@ -78,11 +102,18 @@ content:
         title: University of Delaware
         caption: 2013 - 2017
         sub_title: BSc Computer Science
+        link: https://cis.udel.edu
         quote: >
           UD is nationally ranked, with award-winning faculty, a beautiful, vibrant campus, and opportunities to change the world in campus labs and classrooms, or through internship and study abroad programs around the globe.
 
         description: |
-          During my time at UD, I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance. You can find some of the projects I worked on at UD [here.](https://github.com/aszos/SchoolWork)
+          During my time at UD, I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. 
+          
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance. 
+          
+          Outside of coursework, I attended Hackathons such as Hack@Brown and HopHacks. I spent a good amount of my free time experimenting with Unix and self-hosting applications.
+          
+          You can find some of the projects I worked on at UD [here.](https://github.com/aszos/SchoolWork)
 
   - title: A Little More About Me
     layout: text
