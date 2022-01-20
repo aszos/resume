@@ -64,12 +64,24 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+			- layout: left
+        title: [University of Delaware](https://www.udel.edu)
+        caption: 2013 - 2017
+        sub_title: BSc Computer Science
+        quote: >
+          UD is nationally ranked, with award-winning faculty, a beautiful, vibrant campus, and opportunities to change the world in campus labs and classrooms, or through internship and study abroad programs around the globe.
+
+        description: | # this will include new lines to allow paragraphs
+          During my time at UD, I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance. You can find some of the projects I worked on at UD [here.](https://github.com/aszos/SchoolWork)
+
+
       
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in cloud technologies and software engineering some of my other interests and hobbies are:
-      - [Magic: The Gathering](https://www.youtube.com/watch?v=WnvzmUZG0Dk)
+      - Magic: The Gathering
+				- [Top 8 @ SCG Philly 2019](https://www.youtube.com/watch?v=WnvzmUZG0Dk)
       - Snowboarding & Skiing
       - Cooking
       - Video Gaming
