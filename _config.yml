@@ -30,13 +30,10 @@ github_username:  aszos
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,19 +47,32 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Alex and I'm a Cloud Engineer. 
 
-  I am most skilled in: <mark>AWS</mark>
+  I am most skilled in: <mark>AWS</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
-      
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: right
+        title: The Vanguard Group
+        sub_title: Cloud Engineer, Specialist
+        caption: January 2019 ~ Current
+        link: https://investor.vanguard.com/home
+        description: 
+        
+      - layout: right
+        title: The Vanguard Group
+        sub_title: Java Developer
+        caption: August 2017 ~ January 2019
+        link: https://investor.vanguard.com/home
+        description: 
+          
+  - title: Education
+    layout: list
     content:
       - layout: top-left
         title: University of Delaware
@@ -71,20 +81,21 @@ content:
         quote: >
           UD is nationally ranked, with award-winning faculty, a beautiful, vibrant campus, and opportunities to change the world in campus labs and classrooms, or through internship and study abroad programs around the globe.
 
-        description: | # this will include new lines to allow paragraphs
+        description: |
           During my time at UD, I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance. You can find some of the projects I worked on at UD [here.](https://github.com/aszos/SchoolWork)
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Alongside my interests in cloud technologies and software engineering some of my other interests and hobbies are:
       - Magic: The Gathering
+        - [Top 8 @ SCG Philly 2019](https://www.youtube.com/watch?v=WnvzmUZG0Dk)
       - Snowboarding & Skiing
       - Cooking
       - Video Gaming
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
