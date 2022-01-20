@@ -71,8 +71,11 @@ content:
         link: https://investor.vanguard.com/home
         description: |
           Developed, supported, and deployed patches for the Vanguard public website. 
+          
           Led project to re-architect and update the public site application to use Spring 4, Java 8, Gatekeeper. 
+          
           Built a process to eliminate bottlenecks for local public site development, decreased application startup time by 80% and decreased load times by 35%.
+          
           Researched and led project to migrate REST service to cloud-based architecture.
           
       - layout: left
@@ -82,7 +85,9 @@ content:
         link: https://www.endevorllc.com/
         description: |
           Developed, designed, tested, and deployed web-based enterprise human resources solutions.
+          
           Programmed in C# ASP.NET, HTML/CSS/Javascript, and SQL.
+          
           Collaborated with team of junior and senior developers in an agile work environment.
           
       - layout: left
@@ -92,7 +97,9 @@ content:
         link: https://www.jpmorgan.com/
         description: |
           Deployed a database migration component to migrate 15 million securities records daily, performed optimizations to decrease runtime by 300%.
+          
           Developed using Java, MySQL, Bash, SVN, and Fitnesse.
+          
           Implemented a robust testing framework and produced technical specification documentation.
           
   - title: Education
